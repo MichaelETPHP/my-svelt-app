@@ -1,4 +1,6 @@
+
 <script context="module">
+    import Title from '$lib/title.svelte'
 	export async function load({ fetch }) {
 		const res = await fetch('https://jsonplaceholder.typicode.com/posts');
 		const users = await res.json();
@@ -20,6 +22,8 @@
 <script>
 	export let users;
 </script>
+
+<Title/>
 <a href="/">HOME</a> || <a href="about">ABOUT</a> || <a href="">Contact</a>
 
 <center><h1>List off Post</h1></center>
@@ -27,3 +31,4 @@
 	<a sveltekit:prefetch href={`/singleuser/${user.id}`}>{user.title}</a>
 	<hr />
 {/each}
+

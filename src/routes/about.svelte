@@ -1,5 +1,6 @@
 
 <script>
+  import Title from '$lib/title.svelte'
   import SvelTable from 'sveltable';
   let data = [ { id: 1, first_name: "Marilyn", last_name: "Monroe", pet: "dog" },
   { id: 2, first_name: "Abraham", last_name: "Lincoln", pet: "dog" },
@@ -21,7 +22,8 @@
   { id: 18, first_name: "Queen", last_name: "Victoria", pet: "dog" },
   { id: 19, first_name: "Pope", last_name: "Francis", pet: "cat" },];
 </script>
-<SvelTable dataSet={data} />
+<Title title="About Page"/>
 <a href="/">HOME</a> || <a href="about">ABOUT</a> || <a href="">Contact</a>
 
 <center><h1>ABOUT PAGE</h1></center>
+<SvelTable dataSet={data} />
