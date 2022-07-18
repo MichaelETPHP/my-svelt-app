@@ -26,6 +26,6 @@
 </script>
 
 <div>
-	<a href="/">HOME</a> || <a href="../about">ABOUT</a>
+	<a href="/">HOME</a> || <a href="../about">ABOUT</a> || <a href="">Contact</a>
 	<h1>{user.title}</h1>
 </div>
