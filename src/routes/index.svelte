@@ -20,7 +20,7 @@
 <script>
 	export let users;
 </script>
-<a href="/">HOME</a> || <a href="about">ABOUT</a>
+<a href="/">HOME</a> || <a href="about">ABOUT</a> || <a href="">Contact</a>
 
 <center><h1>List off Post</h1></center>
 {#each users as user}

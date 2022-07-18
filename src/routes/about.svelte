@@ -22,6 +22,6 @@
   { id: 19, first_name: "Pope", last_name: "Francis", pet: "cat" },];
 </script>
 <SvelTable dataSet={data} />
-<a href="/">HOME</a> || <a href="about">ABOUT</a>
+<a href="/">HOME</a> || <a href="about">ABOUT</a> || <a href="">Contact</a>
 
 <center><h1>ABOUT PAGE</h1></center>
