@@ -20,11 +20,10 @@
 <script>
 	export let users;
 </script>
+<a href="/">HOME</a> || <a href="about">ABOUT</a>
 
+<center><h1>HOME PAGE</h1></center>
 {#each users as user}
 	<a sveltekit:prefetch href={`/singleuser/${user.id}`}>{user.title}</a>
 	<hr />
 {/each}
-<a href="/">HOME</a> || <a href="about">ABOUT</a>
-
-<center><h1>HOME PAGE</h1></center>
