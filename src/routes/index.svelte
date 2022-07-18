@@ -22,7 +22,7 @@
 </script>
 <a href="/">HOME</a> || <a href="about">ABOUT</a>
 
-<center><h1>HOME PAGE</h1></center>
+<center><h1>List off Post</h1></center>
 {#each users as user}
 	<a sveltekit:prefetch href={`/singleuser/${user.id}`}>{user.title}</a>
 	<hr />
