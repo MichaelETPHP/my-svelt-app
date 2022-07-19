@@ -17,11 +17,6 @@ import Home from "./about.svelte";
 <main>
     <slot></slot>
 </main>
-
-
-    <About/>
-
-
 <footer>
    <Footer/>
 </footer>
