@@ -1,21 +1,22 @@
 
 <script>
-import Nav from '$lib/nav.svelte'
+import NavBar from '$lib/NavBar.svelte'
+import Footer from '$lib/Footer.svelte'
 import '../styles/style.css'
-
-
-  
 </script>
 
 
 
 <header>
-    <Nav/>
+    <NavBar/>
 </header>
+
 
 <main>
     <slot></slot>
 </main>
-<footer>
 
+
+<footer>
+<Footer/>
 </footer>
