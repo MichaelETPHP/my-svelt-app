@@ -22,18 +22,16 @@
 	export let users;
 </script>
 
+<br>
 
-
- <div class="grid grid-flow-row auto-rows-min">
-        <div class="p-4 mb-2 bg-blue-50"><p class="text-red-900"> Hello world </p></div>
-    <button class="bg-teal-400 hover:bg-teal-500 py-2 px-4">Hover</button>
-    </div>
-<p class="text-3xl">Hello</p>
- 
+<br>
 
 
 
-<section class="bg-coolGray-50 py-4">
+
+
+<div class="container mx-auto">
+  <section class="bg-coolGray-50 py-4">
   <div class="container px-4 mx-auto">
     <div class="flex flex-wrap -m-3">
         {#each users as user}
@@ -55,7 +53,7 @@
           <div class="flex flex-wrap pt-4 pb-6 -m-2">
             <div class="w-full md:w-1/3 p-2">
               <div class="text-center">
-                <p class="mb-1 text-xs text-coolGray-900 font-semibold">24</p>
+                <p class="mb-1 text-xs text-coolGray-900 font-semibold">{user.id}</p>
                 <p class="text-xs text-coolGray-400 font-medium">Posts</p>
               </div>
             </div>
@@ -79,11 +77,18 @@
     
   </div>
 </section>
+</div>
+
+
 
 
   
 
 
 
-
+<div class="bg-gray-200 p-4 ">
+  <img class="float-left mr-4 my-2 h-24" src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
+  <img class="float-right ml-4 my-2 h-32" src="https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
+  <p class="clear-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis et lorem sit amet vehicula. Etiam vel nibh nec nisi euismod mollis ultrices condimentum velit. Proin velit libero, interdum ac rhoncus sit amet, pellentesque ac turpis. Quisque ac luctus turpis, vel efficitur ante. Cras convallis risus vel vehicula dapibus. Donec eget neque fringilla, faucibus mi quis, porttitor magna. Cras pellentesque leo est, et luctus neque rutrum eu. Aliquam consequat velit sed sem posuere, vitae sollicitudin mi consequat. Mauris eget ipsum sed dui rutrum fringilla. Donec varius vehicula magna sit amet auctor. Ut congue vehicula lectus in blandit. Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.</p>
+</div>
 
