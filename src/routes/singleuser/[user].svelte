@@ -1,5 +1,4 @@
 <script context="module">
-	import Title from '$lib/title.svelte'
 	export async function load({  fetch, params }) {
 		// console.log(params.id)
 		const id = params.user
@@ -24,7 +23,6 @@
 <script>
 	export let user;
 </script>
-<Title title={user.title}/>
 <div>
 	<a href="/">HOME</a> || <a href="../about">ABOUT</a> || <a href="">Contact</a>
 	<h1>{user.body}</h1>
