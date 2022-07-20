@@ -1,38 +1,47 @@
-<script>
-  const team1 = "/assets/img/team-1-800x800.jpg";
-  const team2 = "/assets/img/team-2-800x800.jpg";
-  const team3 = "/assets/img/team-3-800x800.jpg";
-  const team4 = "/assets/img/team-4-470x470.png";
+
+<script lang="ts">
+  import { Accordion, AccordionItem } from 'sveltestrap';
+    import {
+    Button,
+    Card,
+    CardBody,
+    CardFooter,
+    CardHeader,
+    CardSubtitle,
+    CardText,
+    CardTitle
+  } from 'sveltestrap';
 </script>
-
-<div class="container mx-auto">
-<div class="grid grid-cols-2 gap-4">
-  
-<div><p class="text-center">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p></div>
-
-</div>
-</div>
-
-
-<hr>
-<br>
 <div class="container mx-auto">
 <div class="grid grid-cols-2 gap-4">
   
 
-  <!-- ... -->
-<div class="shadow-md p-10"><p class="text-center">So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p></div>
 
+<Accordion>
+  <AccordionItem active header="Home"><i class="bi bi-pin"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et vel adipisci voluptatibus natus odit facere tempore, sed corrupti ipsa vero modi nihil, nulla, sint voluptatem itaque harum ea debitis minima.</AccordionItem>
+ 
+  <AccordionItem header="School">
+    <a href="#home">Buena Vista Elementary</a>
+  </AccordionItem>
+ 
+  <AccordionItem header="Library">UCSB Library</AccordionItem>
+
+</Accordion>
+
+<Card class="mb-3">
+  <CardHeader>
+    <CardTitle>Card title</CardTitle>
+  </CardHeader>
+  <CardBody>
+    <CardSubtitle>Card subtitle</CardSubtitle>
+    <CardText>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </CardText>
+    <Button>Button</Button>
+  </CardBody>
+  <CardFooter>Footer</CardFooter>
+</Card>
 </div>
 </div>
-<div class="shadow-2xl p-10">
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
-<br>
-
-</div>
-<button class="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...">
-  Save Changes
-</button>
-
-
 
