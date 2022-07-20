@@ -43,7 +43,7 @@
           </div>
           <div class="post-content">
             <h3 class="post-title">
-             <a sveltekit:prefetch class="read-more" href={`/singleuser/${user.id}`}>{user.title}</a>
+             <a sveltekit:prefetch href={`/singleuser/${user.id}`}>{user.title}</a>
             </h3>
             <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
             <a sveltekit:prefetch class="read-more" href={`/singleuser/${user.id}`}>read more</a>
