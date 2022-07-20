@@ -1,60 +1,66 @@
-<script>
-  const team1 = "/assets/img/team-1-800x800.jpg";
-  const team2 = "/assets/img/team-2-800x800.jpg";
-  const team3 = "/assets/img/team-3-800x800.jpg";
-  const team4 = "/assets/img/team-4-470x470.png";
+<script lang="ts">
+  import { Col, Container, Row } from 'sveltestrap';
 </script>
-
-<div
-      class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
-    >
-      <div
-        class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="
-          background-image: url(https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
-        "
-      >
-        <span
-          id="blackOverlay"
-          class="w-full h-full absolute opacity-75 bg-black"
-        ></span>
-      </div>
-      <div class="container relative mx-auto">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">
-               Contact US 
-              </h1>
-              <p class="mt-4 text-lg text-blueGray-200">
-                This is a simple example of a Landing Page you can build using
-                Notus Svelte. It features multiple CSS components
-                based on the Tailwind CSS design system.
-              </p>
-            </div>
+<Container>
+<center><h1>Contact</h1></center>
+  <Row>
+    <Col>
+       <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
           </div>
         </div>
-      </div>
-      <div
-        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-        style="transform: translateZ(0);"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-blueGray-200 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
-    </div>
-
-
-
+    </Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+  </Row>
+  </Container>

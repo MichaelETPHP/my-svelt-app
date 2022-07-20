@@ -1,47 +1,66 @@
-
 <script lang="ts">
-  import { Accordion, AccordionItem } from 'sveltestrap';
-    import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardHeader,
-    CardSubtitle,
-    CardText,
-    CardTitle
-  } from 'sveltestrap';
+  import { Col, Container, Row } from 'sveltestrap';
 </script>
-<div class="container mx-auto">
-<div class="grid grid-cols-2 gap-4">
-  
-
-
-<Accordion>
-  <AccordionItem active header="Home"><i class="bi bi-pin"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et vel adipisci voluptatibus natus odit facere tempore, sed corrupti ipsa vero modi nihil, nulla, sint voluptatem itaque harum ea debitis minima.</AccordionItem>
- 
-  <AccordionItem header="School">
-    <a href="#home">Buena Vista Elementary</a>
-  </AccordionItem>
- 
-  <AccordionItem header="Library">UCSB Library</AccordionItem>
-
-</Accordion>
-
-<Card class="mb-3">
-  <CardHeader>
-    <CardTitle>Card title</CardTitle>
-  </CardHeader>
-  <CardBody>
-    <CardSubtitle>Card subtitle</CardSubtitle>
-    <CardText>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </CardText>
-    <Button>Button</Button>
-  </CardBody>
-  <CardFooter>Footer</CardFooter>
-</Card>
-</div>
-</div>
-
+<Container>
+<center><h1>About</h1></center>
+  <Row>
+    <Col>
+       <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+    </Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+    <Col>   <div class="post-slide">
+          <div class="post-img">
+            <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+            <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div></Col>
+  </Row>
+  </Container>
